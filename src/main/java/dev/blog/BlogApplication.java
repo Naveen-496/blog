@@ -1,10 +1,10 @@
-package dev.danvega.blog;
+package dev.blog;
 
-import dev.danvega.blog.model.Author;
-import dev.danvega.blog.model.Comment;
-import dev.danvega.blog.model.Post;
-import dev.danvega.blog.repository.AuthorRepository;
-import dev.danvega.blog.repository.PostRepository;
+import dev.blog.model.Author;
+import dev.blog.model.Comment;
+import dev.blog.model.Post;
+import dev.blog.repository.AuthorRepository;
+import dev.blog.repository.PostRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

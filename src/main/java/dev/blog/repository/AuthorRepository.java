@@ -1,6 +1,6 @@
-package dev.danvega.blog.repository;
+package dev.blog.repository;
 
-import dev.danvega.blog.model.Author;
+import dev.blog.model.Author;
 import org.springframework.data.repository.CrudRepository;
 
 public interface AuthorRepository extends CrudRepository<Author , Integer> {

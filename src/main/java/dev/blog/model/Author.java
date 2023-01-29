@@ -1,4 +1,4 @@
-package dev.danvega.blog.model;
+package dev.blog.model;
 
 import org.springframework.data.annotation.Id;
 

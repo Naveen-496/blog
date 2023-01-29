@@ -1,9 +1,9 @@
-package dev.danvega.blog.controller;
+package dev.blog.controller;
 
-import dev.danvega.blog.model.Post;
-import dev.danvega.blog.model.dto.PostDetails;
-import dev.danvega.blog.repository.AuthorRepository;
-import dev.danvega.blog.repository.PostRepository;
+import dev.blog.repository.AuthorRepository;
+import dev.blog.repository.PostRepository;
+import dev.blog.model.Post;
+import dev.blog.model.dto.PostDetails;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
